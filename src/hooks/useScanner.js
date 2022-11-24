@@ -15,11 +15,12 @@ export default (options = {}) => {
         setScannedImage(scannedImages[0]);
       }
     } catch (err) {
+      console.log('err', err);
       setScannedImage(false);
       alert('some error occured');
     }
   };
-
+  console.log(scannedImage);
   return {
     scanDocument,
     scannedImage,

@@ -7,7 +7,7 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   img: {
-    width: '50%',
-    height: '50%',
+    width: 350,
+    height: 350,
   },
 });
