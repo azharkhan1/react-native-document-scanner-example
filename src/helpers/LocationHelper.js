@@ -36,8 +36,6 @@ class BackgroundLocationHelper {
           '- BackgroundGeolocation is configured and ready: ',
           state.enabled,
         );
-      })
-      .then(state => {
         BackgroundGeolocation.start();
       })
       .catch(err => {
